@@ -22,5 +22,5 @@ export class AuditListener {
 
         console.log(`Audit log created for ${event?.userId}`);
     }
-
+ 
 }

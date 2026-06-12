@@ -8,14 +8,10 @@ export class Profile {
     @Column()
     userId: number;
 
-    @Column({
-        nullable: true
-    })
+    @Column({ type: 'varchar', nullable: true })
     avatar: string | null;
 
-    @Column({
-        nullable: true
-    })
+    @Column({ type: 'text', nullable: true })
     bio: string | null;
 
 }
