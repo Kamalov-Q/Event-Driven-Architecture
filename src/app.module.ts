@@ -19,7 +19,7 @@ import { HealthModule } from './common/health/health.module';
     validationSchema,
   }),
   EventEmitterModule.forRoot(),
-
+ 
   TypeOrmModule.forRootAsync({
     inject: [ConfigService],
     useFactory: getDatabaseConfig,

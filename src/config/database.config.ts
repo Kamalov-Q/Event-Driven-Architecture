@@ -13,5 +13,5 @@ export const getDatabaseConfig = (
   entities: [],
   synchronize: true,
   autoLoadEntities: true,
-  logging: true,
+  logging: true,  
 });

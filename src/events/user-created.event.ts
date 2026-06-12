@@ -8,4 +8,4 @@ export class UserCreatedEvent {
         public readonly email: string
 
     ) { }
-}
+} 

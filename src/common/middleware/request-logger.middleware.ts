@@ -6,7 +6,7 @@ export class RequestLoggerMiddleware implements NestMiddleware {
     use(req: Request, res: Response, next: NextFunction) {
         const start = Date.now();
 
-        res.on('finish', () => {
+        res.on('finish', () => { 
             console.log({
                 method: req.method,
                 url: req.originalUrl,
